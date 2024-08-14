@@ -1,0 +1,253 @@
+/* CSS NAVBAR */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #6a0dad;
+    padding: 10px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 80px; /* Ajustar logo */
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*CSS FOTO PERFIL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-color: #dcc7eb; /* Violeta pálido */
+    padding: 3rem 0; /* Espaciado vertical */
+}
+
+.container {
+    max-width: 1200px; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.hero-content {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    gap: 2rem; /* Espacio entre la imagen y el texto */
+}
+
+.img-fluid {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.text-content {
+    max-width: 500px; /* Ajusta el ancho máximo del contenedor del texto */
+}
+
+.text-content h1 {
+    font-size: 2rem; /* Tamaño del texto del título */
+    margin: 0; /* Elimina el margen superior e inferior del título */
+    color: #333; /* Color del texto del título */
+}
+
+.text-content p {
+    font-size: 1.125rem; /* Tamaño del texto del párrafo */
+    color: #666; /* Color del texto del párrafo */
+}
+
+
+
+/*CSS SOBRE MI */
+.about {
+    background-color: #ffffff; /* Color de fondo claro para la sección */
+    padding: 3rem 0; /* Espaciado vertical */
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    gap: 2rem; /* Espacio entre la imagen y el texto */
+}
+
+.about-text {
+    max-width: 600px; /* Ancho máximo del contenedor del texto */
+}
+
+.about-text h2 {
+    font-size: 2rem; /* Tamaño del título de la sección */
+    margin-bottom: 1rem; /* Margen inferior del título */
+    color: #333; /* Color del texto del título */
+}
+
+.about-text p {
+    font-size: 1rem; /* Tamaño del texto del párrafo */
+    color: #666; /* Color del texto del párrafo */
+}
+
+
+
+.skills {
+    background-color:#ffffff; /* Fondo blanco para contraste */
+    padding: 3rem 0; /* Espaciado vertical */
+}
+
+.skills h2 {
+    font-size: 2rem; /* Tamaño del título de la sección */
+    margin-bottom: 2rem; /* Margen inferior del título */
+    color: #333; /* Color del texto del título */
+}
+
+.skill-card {
+    background-color: #dcc7eb; /* Fondo ligeramente gris para tarjetas */
+    border: 1px solid #ddd; /* Borde ligero para tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 1.5rem; /* Espaciado interior */
+    text-align: center; /* Centra el texto dentro de las tarjetas */
+    margin-bottom: 1.5rem; /* Espacio entre tarjetas */
+}
+
+.skill-card h3 {
+    font-size: 1.25rem; /* Tamaño del título dentro de la tarjeta */
+    margin-bottom: 0.5rem; /* Margen inferior del título */
+    color: #333; /* Color del texto del título */
+}
+
+.skill-card p {
+    font-size: 1rem; /* Tamaño del texto dentro de la tarjeta */
+    color: #666; /* Color del texto del párrafo */
+}
+
+
+
+/* Carrusel */
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Ancho de los botones de control */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #6a1b9a; /* Fondo de los íconos de control */
+    border-radius: 50%; /* Botones redondeados */
+}
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"%3e%3cpath fill="none" stroke="%23fff" stroke-linecap="round" stroke-linejoin="round" d="M5 1L2 4l3 3"/%3e%3c/svg%3e');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"%3e%3cpath fill="none" stroke="%23fff" stroke-linecap="round" stroke-linejoin="round" d="M3 1l3 3-3 3"/%3e%3c/svg%3e');
+}
+
+
+
+
+
+
+
+/* Contact Section */
+.contact {
+    background-color: #f8f9fa; /* Color de fondo de la sección de contacto */
+    padding: 3rem 0; /* Espaciado vertical */
+}
+
+.contact h2 {
+    color: #6a1b9a; /* Color del título */
+}
+
+.contact .form-label {
+    color: #333; /* Color de las etiquetas del formulario */
+}
+
+.contact .form-control {
+    border-radius: 5px; /* Bordes redondeados para los campos del formulario */
+    border: 1px solid #ced4da; /* Color del borde del campo del formulario */
+}
+
+.contact .form-control:focus {
+    border-color: #6a1b9a; /* Color del borde al enfocar el campo del formulario */
+    box-shadow: 0 0 0 0.2rem rgba(106, 27, 154, 0.25); /* Sombra de enfoque */
+}
+
+.contact .btn-primary {
+    background-color: #6a1b9a; /* Color de fondo del botón */
+    border-color: #6a1b9a; /* Color del borde del botón */
+}
+
+.contact .btn-primary:hover {
+    background-color: #4a148c; /* Color de fondo del botón al pasar el ratón */
+    border-color: #4a148c; /* Color del borde del botón al pasar el ratón */
+}
+
+
+
+
+
+
+
+
+/* Footer Styles */
+.footer {
+    background-color: #6a1b9a; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 2rem 0; /* Espaciado vertical */
+}
+
+.footer h5 {
+    margin-bottom: 1rem; /* Espacio inferior del título */
+    color: #f8f9fa; /* Color del título */
+}
+
+.footer p {
+    margin-bottom: 0.5rem; /* Espacio inferior del párrafo */
+}
+
+.footer a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+}
+
+.footer img {
+    vertical-align: middle; /* Alinear verticalmente el icono */
+}
